@@ -1,19 +1,28 @@
 * {
-  margin: 0;
-  padding: 0;
+  font-size: medium;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  background-color: hsl(206, 9%, 15%);
 }
-.intro {
-  color: red;
-  font-size: 2rem;
-}
-.addItem {
-  width: fit-content;
-}
-::-webkit-input-placeholder {
+header {
+  font-size: 2.5rem;
+  color: white;
   text-align: center;
+}
+.rounded-divide {
+  margin-top: 2px solid white;
+}
+.chore {
+  display: flex;
+  color: white;
+  margin: 0 0.5rem;
+  padding: 0.3rem;
+  background-color: hsl(206, 9%, 19%);
+  justify-content: space-between;
+}
+.chore-desc {
+  font-size: 1.8rem;
+}
+.fa-check {
+  color: white;
 }
