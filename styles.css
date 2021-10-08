@@ -2,12 +2,31 @@
   font-size: medium;
 }
 body {
-  background-color: hsl(206, 9%, 15%);
+  background-color: hsl(206, 9%, 20%);
 }
 header {
+  display: flex;
+  justify-content: space-between;
+}
+.div-header {
   font-size: 2.5rem;
   color: white;
   text-align: center;
+}
+.add-bar {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #2d9fd9;
+  color: #a0d18c;
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin: 0.5rem;
 }
 .rounded-divide {
   margin-top: 2px solid white;
@@ -17,12 +36,26 @@ header {
   color: white;
   margin: 0 0.5rem;
   padding: 0.3rem;
-  background-color: hsl(206, 9%, 19%);
+  background-color: hsl(206, 9%, 25%);
   justify-content: space-between;
+}
+.chore:hover {
+  background-color: hsl(206, 9%, 18%);
 }
 .chore-desc {
   font-size: 1.8rem;
 }
+.fa-lightbulb {
+  color: white;
+}
+.fa-plus {
+  color: white;
+}
 .fa-check {
   color: white;
+}
+.done-list {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
 }
