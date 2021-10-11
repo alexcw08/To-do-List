@@ -2,7 +2,7 @@
   font-size: medium;
 }
 body {
-  background-color: hsl(206, 9%, 20%);
+  background-color: #5d001e;
 }
 header {
   display: flex;
@@ -22,30 +22,74 @@ input[type="text"] {
   -moz-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid #2d9fd9;
-  color: #a0d18c;
+  color: black;
   width: 250px;
   height: 30px;
   padding-left: 10px;
   margin: 0.5rem;
 }
 .rounded-divide {
-  margin-top: 2px solid white;
+  margin-top: 20px solid #66fcf1;
 }
-#choreList {
+.choreList {
   display: flex;
   color: white;
   margin: 0 0.5rem;
   padding: 0.3rem;
   justify-content: space-between;
   flex-direction: column;
+
+  border-radius: 15px;
 }
-#choreList:hover {
-  background-color: hsl(206, 9%, 18%);
-}
-#testChore {
+
+.testChore {
+  display: flex;
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
-  background-color: hsl(206, 9%, 25%);
+  background-color: hsl(205, 26%, 18%);
+  border-radius: 15px;
+  padding-left: 0.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  justify-content: space-between;
+}
+.testClicked {
+  display: flex;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  background-color: hsl(205, 26%, 18%);
+  border-radius: 15px;
+  padding-left: 0.8rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  justify-content: space-between;
+  opacity: 0.5;
+  color: black;
+}
+#btnContainer {
+  padding-top: 0rem;
+}
+#doneBtn {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f2833;
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#delBtn {
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #1f2833;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.6rem;
 }
 .fa-lightbulb {
   color: white;
