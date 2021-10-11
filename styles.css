@@ -31,19 +31,21 @@ input[type="text"] {
 .rounded-divide {
   margin-top: 2px solid white;
 }
-.chore {
+#choreList {
   display: flex;
   color: white;
   margin: 0 0.5rem;
   padding: 0.3rem;
-  background-color: hsl(206, 9%, 25%);
   justify-content: space-between;
+  flex-direction: column;
 }
-.chore:hover {
+#choreList:hover {
   background-color: hsl(206, 9%, 18%);
 }
-.chore-desc {
+#testChore {
   font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  background-color: hsl(206, 9%, 25%);
 }
 .fa-lightbulb {
   color: white;

@@ -7,19 +7,18 @@
     <title>To-do List</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
   </head>
   <body>
     <header>
       <div class="div-header">To-do List</div>
     </header>
     <div class="add-bar">
-      <input type="text" placeholder="Enter chore..." />
+      <input id="theBar" type="text" />
     </div>
     <hr class="rounded-divide" />
-    <div class="chore">
-      <div class="chore-desc">Do the dishes.</div>
-      <i class="fas fa-check"></i>
+    <div id="choreList">
+      <div id="testChore">Do the dishes.</div>
     </div>
   </body>
 </html>
